@@ -54,6 +54,7 @@ button.add,button.goog_delete {
       justify-content: center;
       align-items: center;
       margin-top: 15px;
+      margin-bottom: 15px;
 }
 .price_title, .price_title span {
       font-weight: bold;
@@ -76,4 +77,23 @@ td {
       display: flex;
       align-items: center;
       height: 60px;
+}
+.btn-primary {
+      background-color: #0d6efd;
+      color: white;
+      
+      border-radius:5px;
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+      -ms-border-radius:5px;
+      -o-border-radius:5px;
+}
+.btn-danger {
+      background-color: red;
+      color: white;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
 }
